@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-
+import image1 from "../assets/images/image1.png"
 const RollDice = ({currentDate, roleDice}) => {
 
  
@@ -8,7 +8,7 @@ const RollDice = ({currentDate, roleDice}) => {
   return (
     <DiceContainer>
       <div className='dice' onClick={roleDice}> 
-        <img src="src/assets/images/image1.png" alt="dice Image"
+        <img src={image1} alt="dice Image"
       /></div>
       <p>Click On Dice to Roll</p>
      
